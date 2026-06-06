@@ -1,11 +1,17 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="CesiumSceneHandler" preserve="all" />
     <type fullname="PlayerSpawnPointScript" preserve="all" />
+    <type fullname="ScreenShareTool.ScreenShareControls" preserve="all" />
+    <type fullname="ScreenShareTool.ScreenShareRoom" preserve="all" />
+    <type fullname="ScreenShareTool.ScreenShareSettings" preserve="all" />
+    <type fullname="ScreenShareTool.ScreenShareSurface" preserve="all" />
     <type fullname="SitSpot" preserve="all" />
     <type fullname="TeleportationAreaNetworked" preserve="all" />
     <type fullname="VertexFormCore.AttachTeleportArea" preserve="all" />
     <type fullname="VertexFormCore.XRGrabNetworkInteractable" preserve="all" />
+    <type fullname="ScreenShareTool.ConnectionFailedEvent" preserve="nothing" serialized="true" />
+    <type fullname="ScreenShareTool.PresenterEvent" preserve="nothing" serialized="true" />
+    <type fullname="ScreenShareTool.TexturePresenterEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Fusion.Addons.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Fusion.Addons.Physics.NetworkRigidbody3D" preserve="all" />
@@ -132,6 +138,9 @@
   <assembly fullname="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.TerrainCollider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
@@ -158,5 +167,8 @@
     <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
   </assembly>
 </linker>

@@ -240,15 +240,15 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/WebGL Build.loader.js";
+    var loaderUrl = buildUrl + "/XR-in-LXD.loader.js";
     var config = {
-      dataUrl: buildUrl + "/WebGL Build.data",
-      frameworkUrl: buildUrl + "/WebGL Build.framework.js",
-      codeUrl: buildUrl + "/WebGL Build.wasm",
+      dataUrl: buildUrl + "/XR-in-LXD.data",
+      frameworkUrl: buildUrl + "/XR-in-LXD.framework.js",
+      codeUrl: buildUrl + "/XR-in-LXD.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "XR in LXD",
       productName: "XR in LXD Metaverse Auditorium",
-      productVersion: "0.0.2",
+      productVersion: "0.0.5",
       /* matchWebGLToCanvasSize true fixes blocky upscaling. It can contribute to resize-related JS/WASM stack overflow
          on some mobile browsers (dynamic URL bar, rotation) — the old "false on mobile" avoided that at the cost of
          awful visuals. Mitigations: cap devicePixelRatio below, Unity updates, and avoid extra resize listeners. */
