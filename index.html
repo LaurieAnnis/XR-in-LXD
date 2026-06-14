@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="mobile-web-app-capable" content="yes">
-  <title>XR in LXD Metaverse Auditorium</title>
+  <title>XR in LXD VF3D</title>
   <style>
     * { box-sizing: border-box; }
     html {
@@ -17,7 +17,7 @@
       height: 100dvh;
       margin: 0;
       padding: 0;
-      background: ##000000;
+      background: ##222222;
       overflow: hidden;
       /* iOS Safari dynamic toolbar */
       height: -webkit-fill-available;
@@ -30,7 +30,7 @@
       margin: 0;
       padding: 0;
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-      background: ##000000;
+      background: ##222222;
       overflow: hidden;
       position: fixed;
       inset: 0;
@@ -49,7 +49,7 @@
       width: 100%;
       height: 100%;
       display: block;
-      background: ##000000;
+      background: ##222222;
       outline: none;
       touch-action: none;
     }
@@ -181,7 +181,7 @@
   <div id="unity-container">
     <canvas id="unity-canvas" tabindex="-1"></canvas>
     <div id="unity-loading-bar">
-      <div>Loading XR in LXD Metaverse Auditorium...</div>
+      <div>Loading XR in LXD VF3D...</div>
       <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
     </div>
   </div>
@@ -247,8 +247,8 @@
       codeUrl: buildUrl + "/XR-in-LXD.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "XR in LXD",
-      productName: "XR in LXD Metaverse Auditorium",
-      productVersion: "0.1.0",
+      productName: "XR in LXD VF3D",
+      productVersion: "0.1.2",
       /* matchWebGLToCanvasSize true fixes blocky upscaling. It can contribute to resize-related JS/WASM stack overflow
          on some mobile browsers (dynamic URL bar, rotation) — the old "false on mobile" avoided that at the cost of
          awful visuals. Mitigations: cap devicePixelRatio below, Unity updates, and avoid extra resize listeners. */
